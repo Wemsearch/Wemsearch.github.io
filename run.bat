@@ -1,0 +1,1 @@
+npm run-script docs:build && npx vitepress dev docs
