@@ -42,96 +42,6 @@ features:
 }
 
 
-body {
-	background-color: #010;
-}
-
-.htitle {
-	font-family: "Cairo";
-	text-align: center;
-	color: #FFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	letter-spacing: 1px;
-	line-height:2
-}
-
-h1 {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 120px;
-	margin: 10px 0;
-}
-/* styling my button */
-
-.white-mode {
-	text-decoration: none;
-	padding: 7px 10px;
-	background-color: #122;
-	border-radius: 3px;
-	color: #FFF;
-	transition: .35s ease-in-out;
-	position: absolute;
-	left: 15px;
-	bottom: 15px;
-	font-family: "Montserrat";
-}
-
-.white-mode:hover {
-	background-color: #FFF;
-	color: #122;
-}
-
-/* === removing default button style ===*/
-.button {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-}
-
-/* button styling */
-.button {
-  --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
-  --fs-size: 2em;
-  letter-spacing: 3px;
-  text-decoration: none;
-  font-size: var(--fs-size);
-  font-family: "Arial";
-  position: relative;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
-}
-/* this is the text, when you hover on button */
-.hover-text {
-  position: absolute;
-  box-sizing: border-box;
-  content: attr(data-text);
-  color: var(--animation-color);
-  width: 0%;
-  inset: 0;
-  border-right: var(--border-right) solid var(--animation-color);
-  overflow: hidden;
-  transition: 0.5s;
-  -webkit-text-stroke: 1px var(--animation-color);
-}
-/* hover */
-.button:hover .hover-text {
-  width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
-}
 /* 这里是搜索框的css */
 .input {
   margin: 0px;
@@ -140,10 +50,10 @@ h1 {
   background: none;
   border: none;
   outline: none;
-  padding: 10px 30px;
+  padding: 16px 30px;
   font-size: 16px;
   border-radius: 9999px;
-  box-shadow: inset 3px 8px 15px rgb(5, 5, 5);
+  box-shadow: inset 4px 10px 17px rgb(7, 5, 10);
   color: #fff;
 }
 .main{
